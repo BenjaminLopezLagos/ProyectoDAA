@@ -35,7 +35,7 @@ public class CharListFragment extends Fragment {
     ListView charactersLV;
     Spinner sortBySpinner;
     ArrayList<Character> css;
-    final String[] sortParameters = {"None", "Stun Resistance", "Defense", "Weight"};
+    final String[] sortParameters = {"Name", "Stun Resistance", "Defense", "Weight"};
     ArrayAdapter<String> charListAdapter;
     ArrayAdapter<String> sortParametersAdapter;
     CompareCharactersName nameComp;
@@ -101,7 +101,7 @@ public class CharListFragment extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(parent.getContext(),
-                        "Changed to " + parent.getItemAtPosition(position).toString(),
+                        "Ordered by " + parent.getItemAtPosition(position).toString(),
                         Toast.LENGTH_SHORT).show();
                 switch (position) {
                     case 1:

@@ -63,6 +63,10 @@ public class GlossaryFragment extends Fragment {
         searchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(!glossary.containsKey(autoCompleteTextView.getText().toString())){
+                    termDefinition.setText(String.format("%s", "No encontrado."));
+                    return;
+                }
                 String def = String.format("%s", glossary.get(autoCompleteTextView.getText().toString()));
                 termDefinition.setText(def);
             }
