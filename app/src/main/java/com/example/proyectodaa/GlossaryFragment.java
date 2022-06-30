@@ -24,7 +24,7 @@ import java.util.HashMap;
 import java.util.Locale;
 
 public class GlossaryFragment extends Fragment {
-     HashMap<String, Term> glossary;
+    HashMap<String, Term> glossary;
     AutoCompleteTextView autoCompleteTextView;
     Button searchBtn;
     TextView termDefinition;
@@ -73,7 +73,7 @@ public class GlossaryFragment extends Fragment {
     private HashMap<String, Term> generateGlossaryFromCSV(InputStreamReader in) throws IOException {
         HashMap<String, Term> newGlossary = new HashMap<>();
         final CSVReader reader = new CSVReader(in);
-        String[] nextLine;
+        String[] nextLine = reader.readNext();
         while ((nextLine = reader.readNext()) != null) {
             Term newTerm = new Term(nextLine[2], nextLine[3], nextLine[1]);
             newGlossary.put(newTerm.getConcept(), newTerm);
