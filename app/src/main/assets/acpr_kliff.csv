@@ -1,0 +1,25 @@
+input,damage,guard,level,startup,active,recovery,onBlock,invuln
+2D,36,Low,4,7,10,21,-14,-
+2H Lv1,43,Low,4,12,4,26,-13,-
+2H Lv2,55,Low,4,36-69,4,18,-5,-
+2H Lv3,70,Low,5,65+4,4,18,-3,-
+2K,16,Low,2,7,4,13,-5,5~13F Low Profile
+2P,12,Mid,1,5,4,7,-1,-
+2S,32,Mid,5,15,6,17,-4,"4~14F, 30~32F Feet | 15~26F Lower Body | 27~29F Leg"
+5D,30,High,5,27,6,19,-6,"18~18F, 42~45F Feet | 19~41F Lower Body"
+5H,54,Mid,5,14,12,15,-8,-
+5K,20,Mid,3,6,8,12,-6,-
+5P,10,Mid,1,5,7,3,0,-
+6H Lv1,100,High,5,28,9,63,-50,-
+6H Lv2,120,High,5,40-79,9,63,-50,-
+6H Lv3,200,High,5,70+8,9,63,-50,-
+6P Lv1,32,Mid,3,13,7,17,-10,"1~8F Above Chest | 9~12F Upper Body | 13~19F Above Knees | 20~26F Feet"
+6P Lv2,36,Mid,3,22-70,7,28,-21,-
+6P Lv3,40,Mid,3,66+5,7,28,-21,-
+cS,36,Mid,4,7,7,15,-5,-
+fS,36,Mid,3,11,3,15,-4,-
+jD,45,High/Air,4,25,Until landing,14 after landing,-2,-
+jH,40,High/Air,4,10,8,19,-,-
+jK,24,High/Air,2,7,5,6,-,-
+jP,14,High/Air,1,5,8,8,-,-
+jS,28,High/Air,3,9,4,17,-,-

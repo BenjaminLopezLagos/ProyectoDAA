@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProyectoDAA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_move">Select Move.</string>
+    <string name="attack_notation">Attack Notation:</string>
+    <string name="recovery_frames">recovery frames:</string>
+    <string name="_2">2</string>
+    <string name="_123">123</string>
+    <string name="escribir_un_concepto">Escribir un concepto.</string>
+</resources>

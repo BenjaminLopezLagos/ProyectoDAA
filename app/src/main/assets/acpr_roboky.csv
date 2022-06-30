@@ -1,0 +1,23 @@
+input,damage,guard,level,startup,active,recovery,onBlock,invuln
+2H,50,Mid,4,14,-,Total 51,-7,-
+2H Heat,50,Mid→ All,4,14,-,Total 51,-7,-
+2K,12,Low,2,7,11,9,-8,7~22F Low Profile
+2P,18,Mid,2,6,4,5,3,-
+2S,34,Low,3,10,3,20,-9,-
+2S Heat,"37, 20",Low,3,10,"3,3",17,1,-
+5D,15,High,5,24,4,22,-12,-
+5H,41,Mid,5,5,7,29,-17,-
+5K,16,Low,1,5,7,7,-4,-
+5P,25,Mid,3,6,4,3,7,-
+6H Lv1,12,All,1,13,12,12,-6,-
+6H Lv2,30,All,2,16,14,7,3,-
+6H Lv3,50,All,3,19,11,17,-1,-
+6P (1),30,Mid,5,11,2,36,-4,"1~3F Upper Body | 4~18F Above Knees"
+6P (2-3),20,Mid,5,5,2,36,-4,4~6F Above Knees
+cS,30,Mid,4,9,2,18,-3,-
+fS,38,Mid,4,10,5,20,-8,-
+jD,10×12,High/Air,2,8,2×12,12+8 after landing,-,-
+jH,28,High/Air,4,8,3,41,-7,-
+jK,22,High/Air,2,7,12,16,-,-
+jP,20,High/Air,2,7,8,4,-,-
+jS,30,High/Air,3,9,2,23,-7,-

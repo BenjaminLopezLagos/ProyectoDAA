@@ -1,0 +1,21 @@
+input,damage,guard,level,startup,active,recovery,onBlock,invuln
+2D,38,Low,4,14,3,30,-16,-
+2H,38,Mid,5,16,3,20,-4,6~12F Strike
+2K,12,Low,1,6,4,11,-5,-
+2P,8,Mid,1,5,4,12,-6,-
+2S,26,Mid,3,10,6,16,-8,-
+3H,15×4,Mid,3,14,"2,2,(2),2,2",17,-5,-
+5D,15,High,3,31,6,18,3,-
+5H,36,Mid,5,10,4,18,-3,-
+5K,18,Mid,3,7,4,12,-2,-
+5P,9,Mid,1,6,3,7,0,-
+6H,55,Mid,5,15,6,28,-15,-
+6K,28,Mid,3,15,6,23,-15,-
+6P,24,High,3,17,3,26,-15,"1~5F Upper Body | 6~19F Above Knees"
+cS,24,Mid,3,5,4,17,-7,-
+fS,28,Mid,3,11,6,13,-5,-
+jD,44,High/Air,3,10,6,20+5 after landing,-,-
+jH,34,High/Air,3,13,5,15,-,-
+jK,18,High/Air,3,6,5,12,-,-
+jP,10,High/Air,1,5,6,12,-,-
+jS,28,High/Air,3,8,3,16,-,-
