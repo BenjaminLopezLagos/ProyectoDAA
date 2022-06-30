@@ -32,7 +32,6 @@ public class CharacterGenerator {
         return l;
     }
 
-    // done
     public static Character Johnny() {
         String name = "Johnny";
         String codeName = "ACPRJO";
@@ -41,7 +40,6 @@ public class CharacterGenerator {
         return new Character(name, codeName, 1.0, 4, 70, 0.98f, MoveList);
     }
 
-    //done
     public static Character Eddie() {
         String name = "Eddie";
         String codeName = "ACPRED";
@@ -50,7 +48,6 @@ public class CharacterGenerator {
         return new Character(name, codeName, 1.06, 0, 60, 1.0f, MoveList);
     }
 
-    //done
     public static Character Justice() {
         String name = "Justice";
         String codeName = "ACPRJU";
@@ -67,7 +64,6 @@ public class CharacterGenerator {
         return new Character(name, codeName, 1.06, 0, 50, 1.1f, MoveList);
     }
 
-    //done
     public static Character Ky() {
         String name = "Ky";
         String codeName = "ACPRKY";
