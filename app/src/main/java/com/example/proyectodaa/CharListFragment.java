@@ -19,7 +19,9 @@ import com.example.proyectodaa.Model.Attack;
 import com.example.proyectodaa.Model.Character;
 import com.example.proyectodaa.Model.CharacterGenerator;
 import com.example.proyectodaa.Model.CompareCharactersDefense;
+import com.example.proyectodaa.Model.CompareCharactersName;
 import com.example.proyectodaa.Model.CompareCharactersStunResistance;
+import com.example.proyectodaa.Model.CompareCharactersWeight;
 import com.opencsv.CSVReader;
 
 import java.io.IOException;
@@ -33,11 +35,13 @@ public class CharListFragment extends Fragment {
     ListView charactersLV;
     Spinner sortBySpinner;
     ArrayList<Character> css;
-    final String[] sortParameters = {"None", "Stun Resistance", "Defense"};
+    final String[] sortParameters = {"None", "Stun Resistance", "Defense", "Weight"};
     ArrayAdapter<String> charListAdapter;
     ArrayAdapter<String> sortParametersAdapter;
+    CompareCharactersName nameComp;
     CompareCharactersDefense defenseComp;
     CompareCharactersStunResistance stunResComp;
+    CompareCharactersWeight weightComp;
 
     public CharListFragment() {
         // Required empty public constructor
@@ -54,8 +58,10 @@ public class CharListFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_char_list, container, false);
         css = CharacterGenerator.generateList();
+        nameComp = new CompareCharactersName();
         defenseComp = new CompareCharactersDefense();
         stunResComp = new CompareCharactersStunResistance();
+        weightComp = new CompareCharactersWeight();
         charactersLV = v.findViewById(R.id.CharactersLV);
         sortBySpinner = v.findViewById(R.id.sortBySpinner);
         sortParametersAdapter = new ArrayAdapter<>(v.getContext(), android.R.layout.simple_spinner_item, sortParameters);
@@ -104,7 +110,11 @@ public class CharListFragment extends Fragment {
                     case 2:
                         bubbleSort(css, defenseComp);
                         break;
+                    case 3:
+                        bubbleSort(css, weightComp);
+                        break;
                     default:
+                        bubbleSort(css, nameComp);
                         break;
                 }
                 charListAdapter.clear();

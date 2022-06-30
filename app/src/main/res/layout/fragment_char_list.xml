@@ -20,8 +20,8 @@
 
         <ListView
             android:id="@+id/CharactersLV"
-            android:layout_width="355dp"
-            android:layout_height="352dp"
+            android:layout_width="353dp"
+            android:layout_height="455dp"
             android:layout_marginTop="36dp"
             android:layout_marginBottom="57dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -33,7 +33,7 @@
             android:id="@+id/sortBySpinner"
             android:layout_width="409dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="40dp"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
