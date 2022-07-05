@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProyectoDAA</string>
+    <string name="app_name">FGWiki</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="select_move">Select Move.</string>
     <string name="attack_notation">Attack Notation:</string>
